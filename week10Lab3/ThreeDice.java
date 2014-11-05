@@ -1,6 +1,6 @@
 package week10Lab3;
 
-public class ThreeDice 
+public class ThreeDice
 {
 	Dice D1 = new Dice();
 	Dice D2 = new Dice();
@@ -13,4 +13,5 @@ public class ThreeDice
 	
 	return average;
 	}
-}
+	
+} // end class ThreeDice

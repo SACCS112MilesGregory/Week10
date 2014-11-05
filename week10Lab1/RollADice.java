@@ -5,8 +5,8 @@ public class RollADice
 
 	public static void main(String[] args) 
 	{
-		ThreeDice DiceGame = new ThreeDice();
-
+		Dice firstDice = new Dice();
+		Dice secondDice = new Dice();
 		int countRolls = 0;
 		int total1;
 		int total2;

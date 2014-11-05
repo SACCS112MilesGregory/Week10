@@ -5,9 +5,9 @@ public class RollADice
 
 	public static void main(String[] args) 
 	{
-		ThreeDice DiceGame = new ThreeDice();
+		Dice DiceGame = new Dice();
 
-		DiceGame.Throw();
-		System.out.println(DiceGame.Throw());
+		DiceGame.toString();
+		System.out.println(DiceGame.toString());
 	} // class main()
 } // end class RollADice
