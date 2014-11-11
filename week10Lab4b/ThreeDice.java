@@ -1,4 +1,4 @@
-package week10Lab4a;
+package week10Lab4b;
 
 public class ThreeDice
 {

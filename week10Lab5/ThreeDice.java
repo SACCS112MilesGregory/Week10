@@ -1,4 +1,4 @@
-package week10Lab4a;
+package week10Lab5;
 
 public class ThreeDice
 {
@@ -6,9 +6,9 @@ public class ThreeDice
 	Dice D2 = new Dice();
 	Dice D3 = new Dice();
 
-	public int Throw()
+	public double Throw()
 	{
-		int numOfDices = 0;
+		double numOfDices = 0;
 	numOfDices = (D1.Throw() + D2.Throw() + D3.Throw());
 		
 	return numOfDices;

@@ -1,8 +1,8 @@
-package week10Lab4a;
+package week10Lab5;
 
 public class Dice 
 {
-	public int Throw()
+	public double Throw()
 	{
 		int dice;
 		dice = (int)(Math.random() * 6) + 1;
